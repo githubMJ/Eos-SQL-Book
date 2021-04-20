@@ -22,7 +22,7 @@ Specifies the`database_name`from which tables will be listed. If omitted, the da
 
 Filters the list of tables to those that match the`regular_expression`you specify. Only the wildcard`*`, which indicates any character, or`|`, which indicates a choice between characters, can be used.
 
-将表列表筛选为与指定的常规表达式匹配的表。只能使用表示任意字符的通配符\*，或表示字符之间的选择的\|。
+将表列表筛选为与指定的常规表达式匹配的表。只能使用表示任意字符的通配符\*，或表示字符之间。
 
 ## Examples {#examples}
 
@@ -54,8 +54,6 @@ flights_2016
 flights_parquet
 view_2016_flights_dfw
 ```
-
-
 
 
 
