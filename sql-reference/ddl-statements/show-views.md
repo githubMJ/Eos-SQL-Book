@@ -1,5 +1,3 @@
-
-
 # **SHOW VIEWS** {#show-views}
 
 Lists the views in the specified database, or in the current database if you omit the database name.
@@ -11,8 +9,6 @@ Lists the views in the specified database, or in the current database if you omi
 ```
 SHOW VIEWS [IN database_name] LIKE ['regular_expression']
 ```
-
-
 
 ### Parameters\(参数\) {#parameters}
 
@@ -28,8 +24,6 @@ Filters the list of views to those that match the`regular_expression`you specify
 
 将视图列表筛选为与指定的常规表达式匹配的视图。只能使用表示任意字符的通配符\*，或表示字符之间可供选择。
 
-
-
 ## Examples {#examples}
 
 ```
@@ -37,7 +31,7 @@ SHOW VIEWS;
 ```
 
 ```
-show views in db01 like 'view*';
+SHOW VIEWS IN db01 LIKE 'view*';
 ```
 
 
