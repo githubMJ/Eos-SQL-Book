@@ -7,26 +7,20 @@ Shows the list of columns, including partition columns, for the named column. Th
 ## Synopsis\(文法\) {#synopsis}
 
 ```
-ALTER TABLE table_name [ PARTITION (partition_spec) ] SET LOCATION 'new location';
+DESCRIBE [EXTENDED | FORMATTED] [db_name.]table_name [PARTITION partition_spec];
 ```
 
 ### Parameters\(参数\) {#parameters}
 
-**PARTITION \(partition\_spec\)**
+**\[EXTENDED \| FORMATTED\]**
 
-Specifies the partition with parameters`partition_spec`whose location you want to change. The`partition_spec`specifies a column name/value combination in the form`partition_col_name = partition_col_value`.
+Determines the format of the output. If you specify`EXTENDED`, all metadata for the table is output in Thrift serialized form. This is useful primarily for debugging and not for general use. Use`FORMATTED`or omit the clause to show the metadata in tabular format.
 
-改变某个分区列的位置。
+**\[PARTITION partition\_spec\]**
 
-`partition_col_name 分区列名`
+If included, lists the metadata for the partition specified by`partition_spec`, where`partition_spec`is in the format`(partition_column = partition_col_value, partition_column = partition_col_value, ...)`.
 
-`partition_col_value 分区列的值`
-
-**SET LOCATION 'new location'**
-
-Specifies the new location, which must be an Tencent COS location.
-
-创建在一个新位置在tencent cos上
+## 
 
 ## Examples
 
