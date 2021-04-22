@@ -11,8 +11,7 @@ ALTER TABLE table_name ADD [IF NOT EXISTS]
   PARTITION
   (partition_col1_name = partition_col1_value
   [,partition_col2_name = partition_col2_value]
-  [,...])
-  [LOCATION 'location1'];
+  [,...]);
 ```
 
 ### Parameters\(参数\) {#parameters}
@@ -21,22 +20,16 @@ ALTER TABLE table_name ADD [IF NOT EXISTS]
 
 Causes the error to be suppressed if a partition with the same definition already exists.
 
-
-
 `PARTITION (partition_col_name = partition_col_value [,...])`
 
 Creates a partition with the column name/value combinations that you specify. Enclose`partition_col_value`in string characters only if the data type of the column is a string.
 
-`[LOCATION 'location']`
-
-Specifies the directory in which to store the partitions defined by the preceding statement.
-
 ## Examples
 
 ```
-ALTER TABLE events ADD COLUMNS (eventowner string);
+ALTER TABLE tbl ADD PARTITION (p1=1, p2='a');
 
-ALTER TABLE events ADD COLUMNS (eventowner string) CASCADE;
+ALTER TABLE tbl ADD IF NOT EXISTS PARTITION ('P' = 1) PARTITION ('P' = 2); 
 ```
 
 

@@ -20,4 +20,8 @@
     * [ALTER DATABASE SET DBPROPERTIES](sql-reference/ddl-statements/alter-database-set-dbproperties.md)
     * [ALTER TABLE ADD COLUMNS](sql-reference/ddl-statements/alter-table-add-columns.md)
     * [ALTER TABLE ADD PARTITION](sql-reference/ddl-statements/alter-table-add-partition.md)
+    * [ALTER TABLE DROP PARTITION](sql-reference/ddl-statements/alter-table-drop-partition.md)
+    * [ALTER TABLE RENAME PARTITION](sql-reference/ddl-statements/alter-table-rename-partition.md)
+    * [ALTER TABLE REPLACE COLUMNS](sql-reference/ddl-statements/alter-table-replace-columns.md)
+    * [ALTER TABLE SET LOCATION](sql-reference/ddl-statements/alter-table-set-location.md)
 
