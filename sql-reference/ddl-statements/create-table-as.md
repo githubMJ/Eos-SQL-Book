@@ -1,8 +1,8 @@
-# CREATE VIEW AS {#create-table-as}
+# CREATE TABLE AS {#create-table-as}
 
 Creates a new table populated with the results of a SELECT query.
 
-创建一个新表从一个茶素馨结果集
+创建一
 
 ## Synopsis\(文法\) {#synopsis}
 

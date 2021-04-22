@@ -24,19 +24,13 @@ CREATE EXTERNAL TABLE [IF NOT EXISTS]
 
 Causes the error to be suppressed if a database named`database_name`already exists.
 
-
-
 **\[COMMENT database\_comment\]**
 
 Establishes the metadata value for the built-in metadata property named`comment`and the value you provide for`database_comment`.
 
-
-
 **\[LOCATION 'cosn://bucket\_name/\[folder\]/'\]**
 
 Specifies the location where database files and metastore will exist as Tencent COS. The location must be an Tencent COS location.
-
-
 
 **\[WITH DBPROPERTIES \('property\_name' = 'property\_value'\) \[, ...\] \]**
 

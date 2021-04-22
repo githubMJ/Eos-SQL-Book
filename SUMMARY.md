@@ -15,6 +15,8 @@
     * [DROP VIEW](sql-reference/ddl-statements/drop-view.md)
     * [DROP TABLE](sql-reference/ddl-statements/drop-table.md)
     * [DROP DATABASE](sql-reference/ddl-statements/drop-database.md)
+    * [CREATE DATABASE](sql-reference/ddl-statements/create-database.md)
+    * [CREATE VIEW AS](sql-reference/ddl-statements/create-table.md)
     * [CREATE VIEW](sql-reference/ddl-statements/create-view.md)
     * [CREATE TABLE AS](sql-reference/ddl-statements/create-table-as.md)
     * [ALTER DATABASE SET DBPROPERTIES](sql-reference/ddl-statements/alter-database-set-dbproperties.md)
@@ -24,6 +26,5 @@
     * [ALTER TABLE RENAME PARTITION](sql-reference/ddl-statements/alter-table-rename-partition.md)
     * [ALTER TABLE REPLACE COLUMNS](sql-reference/ddl-statements/alter-table-replace-columns.md)
     * [ALTER TABLE SET LOCATION](sql-reference/ddl-statements/alter-table-set-location.md)
-    * [CREATE DATABASE](sql-reference/ddl-statements/create-database.md)
-    * [CREATE TABLE](sql-reference/ddl-statements/create-table.md)
+    * [DESCRIBE TABLE](sql-reference/ddl-statements/describe-table.md)
 
