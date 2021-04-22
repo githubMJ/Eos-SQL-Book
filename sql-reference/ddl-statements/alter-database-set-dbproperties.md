@@ -22,7 +22,7 @@ Specifies a property or properties for the database named`property_name`and esta
 ## Examples
 
 ```
-ALTER TABLE table_name SET TBLPROPERTIES('creator' = 'tester');
+ALTER DATABASE db1 SET DBPROPERTIES ('key' = 'value')
 ```
 
 
