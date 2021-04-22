@@ -24,4 +24,5 @@
     * [ALTER TABLE RENAME PARTITION](sql-reference/ddl-statements/alter-table-rename-partition.md)
     * [ALTER TABLE REPLACE COLUMNS](sql-reference/ddl-statements/alter-table-replace-columns.md)
     * [ALTER TABLE SET LOCATION](sql-reference/ddl-statements/alter-table-set-location.md)
+    * [CREATE DATABASE](sql-reference/ddl-statements/create-database.md)
 
