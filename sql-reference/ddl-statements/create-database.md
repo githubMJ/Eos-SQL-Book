@@ -36,7 +36,10 @@ Allows you to specify custom metadata properties for the database definition.
 ## Examples
 
 ```
-ALTER TABLE customers PARTITION (zip='98040', state='WA') SET LOCATION 'cosn://mystorage/custdata/';
+CREATE DATABASE db 
+COMMENT 'db1_name' 
+LOCATION 'cosn://path/to/db1' 
+WITH DBPROPERTIES('k1' = 'v1','k2' = 'v2');
 ```
 
 
