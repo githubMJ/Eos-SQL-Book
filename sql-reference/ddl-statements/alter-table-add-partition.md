@@ -17,17 +17,17 @@ ALTER TABLE table_name ADD [IF NOT EXISTS]
 
 ### Parameters\(参数\) {#parameters}
 
-**`[IF NOT EXISTS]`**
+`[IF NOT EXISTS]`
 
 Causes the error to be suppressed if a partition with the same definition already exists.
 
 
 
-**`PARTITION (partition_col_name = partition_col_value [,...])`**
+`PARTITION (partition_col_name = partition_col_value [,...])`
 
 Creates a partition with the column name/value combinations that you specify. Enclose`partition_col_value`in string characters only if the data type of the column is a string.
 
-**`[LOCATION 'location']`**
+`[LOCATION 'location']`
 
 Specifies the directory in which to store the partitions defined by the preceding statement.
 
