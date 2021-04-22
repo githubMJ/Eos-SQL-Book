@@ -14,7 +14,7 @@ CREATE EXTERNAL TABLE [IF NOT EXISTS]
  [ROW FORMAT row_format]
  [STORED AS file_format] 
  [WITH SERDEPROPERTIES (...)] ]
- [LOCATION 's3://bucket_name/[folder]/']
+ [LOCATION 'cosn://bucket_name/[folder]/']
  [TBLPROPERTIES ( ['has_encrypted_data'='true | false',] ['classification'='aws_glue_classification',] property_name=property_value [, ...] ) ]
 ```
 
@@ -24,13 +24,19 @@ CREATE EXTERNAL TABLE [IF NOT EXISTS]
 
 Causes the error to be suppressed if a database named`database_name`already exists.
 
+
+
 **\[COMMENT database\_comment\]**
 
-Establishes the metadata value for the built-in metadata property named`comment`and the value you provide for`database_comment`. In AWS Glue, the`COMMENT`contents are written to the`Description`field of the database properties.
+Establishes the metadata value for the built-in metadata property named`comment`and the value you provide for`database_comment`.
 
-**\[LOCATION S3\_loc\]**
 
-Specifies the location where database files and metastore will exist as`S3_loc`. The location must be an Amazon S3 location.
+
+**\[LOCATION 'cosn://bucket\_name/\[folder\]/'\]**
+
+Specifies the location where database files and metastore will exist as Tencent COS. The location must be an Tencent COS location.
+
+
 
 **\[WITH DBPROPERTIES \('property\_name' = 'property\_value'\) \[, ...\] \]**
 
