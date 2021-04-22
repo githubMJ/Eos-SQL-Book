@@ -1,4 +1,4 @@
-# CREATE TABLE AS {#create-table-as}
+# CREATE VIEW AS {#create-table-as}
 
 Creates a new table populated with the results of a SELECT query.
 

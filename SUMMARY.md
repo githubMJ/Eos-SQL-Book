@@ -16,6 +16,7 @@
     * [DROP TABLE](sql-reference/ddl-statements/drop-table.md)
     * [DROP DATABASE](sql-reference/ddl-statements/drop-database.md)
     * [CREATE VIEW](sql-reference/ddl-statements/create-view.md)
-    * [ALTER DATABASE SET DBPROPERTIES](sql-reference/ddl-statements/alter-database-set-dbproperties.md)
     * [CREATE TABLE AS](sql-reference/ddl-statements/create-table-as.md)
+    * [ALTER DATABASE SET DBPROPERTIES](sql-reference/ddl-statements/alter-database-set-dbproperties.md)
+    * [ALTER TABLE ADD COLUMNS](sql-reference/ddl-statements/alter-table-add-columns.md)
 
