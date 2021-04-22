@@ -8,27 +8,25 @@ Creates one or more properties for a database.
 
 ```
 ALTER TABLE table_name 
-  [PARTITION 
-   (partition_col1_name = partition_col1_value
-   [,partition_col2_name = partition_col2_value][,...])]
-  ADD COLUMNS (col_name data_type);
+  ADD COLUMNS (col_name data_type) [RESTRICT | CASCADE];
 ```
 
 ### Parameters\(参数\) {#parameters}
 
-**PARTITION \(partition\_col\_name = partition\_col\_value \[,...\]\)**
-
-Creates a partition with the column name/value combinations that you specify. Enclose`partition_col_value`in quotation marks only if the data type of the column is a string.
-
 **ADD COLUMNS \(col\_name data\_type \[,col\_name data\_type,…\]\)**
 
-Adds columns after existing columns but before partition columns.
+增加列给某个表，可以是一个列或者多个列。
+
+**`col_name 列名`**
+
+**`data_type 数据类型`**
 
 ## Examples
 
 ```
 ALTER TABLE events ADD COLUMNS (eventowner string);
 
+ALTER TABLE events ADD COLUMNS (eventowner string) CASCADE;
 ```
 
 

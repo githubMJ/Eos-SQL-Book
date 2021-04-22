@@ -19,4 +19,5 @@
     * [CREATE TABLE AS](sql-reference/ddl-statements/create-table-as.md)
     * [ALTER DATABASE SET DBPROPERTIES](sql-reference/ddl-statements/alter-database-set-dbproperties.md)
     * [ALTER TABLE ADD COLUMNS](sql-reference/ddl-statements/alter-table-add-columns.md)
+    * [ALTER TABLE ADD PARTITION](sql-reference/ddl-statements/alter-table-add-partition.md)
 

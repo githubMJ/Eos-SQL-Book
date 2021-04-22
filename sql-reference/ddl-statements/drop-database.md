@@ -22,9 +22,9 @@ Causes the error to be suppressed if`database_name`doesn't exist.
 
 **\[RESTRICT\|CASCADE\]**
 
-**RESTRICT：如果数据库包含表，则不会删除该数据库，如果不写默写是该模式。**
+**`RESTRICT：如果数据库包含表，则不会删除该数据库，如果不写默写是该模式。`**
 
-**CASCADE：会强制删除所有数据库表。**
+**`CASCADE：会强制删除所有数据库表。`**
 
 ## Examples
 
