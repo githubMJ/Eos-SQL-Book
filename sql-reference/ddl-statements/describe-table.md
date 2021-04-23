@@ -12,9 +12,13 @@ DESCRIBE [EXTENDED | FORMATTED] [db_name.]table_name [PARTITION partition_spec];
 
 ### Parameters\(参数\) {#parameters}
 
+
+
 **\[EXTENDED \| FORMATTED\]**
 
 Determines the format of the output. If you specify`EXTENDED`, all metadata for the table is output in Thrift serialized form. This is useful primarily for debugging and not for general use. Use`FORMATTED`or omit the clause to show the metadata in tabular format.
+
+
 
 **\[PARTITION partition\_spec\]**
 
@@ -25,7 +29,9 @@ If included, lists the metadata for the partition specified by`partition_spec`, 
 ## Examples
 
 ```
-ALTER TABLE customers PARTITION (zip='98040', state='WA') SET LOCATION 'cosn://mystorage/custdata/';
+DESCRIBE tbl;
+
+DESCRIBE FORMATTED tbl PARTITION (date_id = '2019-01-07');
 ```
 
 
