@@ -27,4 +27,5 @@
     * [ALTER TABLE REPLACE COLUMNS](sql-reference/ddl-statements/alter-table-replace-columns.md)
     * [ALTER TABLE SET LOCATION](sql-reference/ddl-statements/alter-table-set-location.md)
     * [DESCRIBE TABLE](sql-reference/ddl-statements/describe-table.md)
+    * [DESCRIBE VIEW](sql-reference/ddl-statements/describe-view.md)
 
